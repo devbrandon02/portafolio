@@ -1,0 +1,87 @@
+Arguments: 
+  /home/devbrandon02/.nvm/versions/node/v18.0.0/bin/node /home/devbrandon02/.nvm/versions/node/v18.0.0/bin/yarn add gastby-plugin-react-i18next
+
+PATH: 
+  /home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/devbrandon02/.nvm/versions/node/v18.0.0/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/devbrandon02/.krew/bin:/home/devbrandon02/istio-1.18.0/bin:/usr/local/go/bin:/home/devbrandon02/go/bin:/home/devbrandon02/.krew/bin:/home/devbrandon02/istio-1.18.0/bin:/usr/local/go/bin:/home/devbrandon02/go/bin:/home/devbrandon02/.krew/bin:/home/devbrandon02/istio-1.18.0/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.0.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/gastby-plugin-react-i18next: Not found
+      at params.callback [as _callback] (/home/devbrandon02/.nvm/versions/node/v18.0.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/home/devbrandon02/.nvm/versions/node/v18.0.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/home/devbrandon02/.nvm/versions/node/v18.0.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/home/devbrandon02/.nvm/versions/node/v18.0.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1344:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "devbrandon",
+    "version": "1.0.0",
+    "private": true,
+    "description": "devbrandon",
+    "author": "Brando R",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop --host",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean",
+      "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+      "@chakra-ui/gatsby-plugin": "^3.1.3",
+      "@chakra-ui/icons": "^2.1.0",
+      "@chakra-ui/react": "^2.8.0",
+      "@emotion/react": "^11.11.1",
+      "@emotion/styled": "^11.11.0",
+      "@react-icons/all-files": "^4.1.0",
+      "autoprefixer": "^10.4.15",
+      "country-flag-icons": "^1.5.7",
+      "flag-icon": "^2.5.0",
+      "framer-motion": "^10.16.0",
+      "gatsby": "^5.11.0",
+      "gatsby-plugin-google-gtag": "^5.11.0",
+      "gatsby-plugin-image": "^3.11.0",
+      "gatsby-plugin-manifest": "^5.11.0",
+      "gatsby-plugin-postcss": "^6.11.0",
+      "gatsby-plugin-sharp": "^5.11.0",
+      "gatsby-plugin-sitemap": "^6.11.0",
+      "gatsby-source-filesystem": "^5.11.0",
+      "gatsby-source-graphql": "^5.11.0",
+      "gatsby-transformer-sharp": "^5.11.0",
+      "i18next": "^23.4.4",
+      "postcss": "^8.4.28",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-i18next": "^13.1.2",
+      "tailwindcss": "^3.3.3"
+    },
+    "devDependencies": {
+      "@types/node": "^20.3.3",
+      "@types/react": "^18.2.14",
+      "@types/react-dom": "^18.2.6",
+      "typescript": "^5.1.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
