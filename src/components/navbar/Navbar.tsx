@@ -16,10 +16,10 @@ import { useTranslation } from 'gatsby-plugin-react-i18next'
 
 
 const Navbar = () => {
-  const {languages, changeLanguage} = useI18next();
+  const {changeLanguage} = useI18next();
   const { toggleColorMode, colorMode } = useColorMode()
-  const bg = useColorModeValue('red.500', 'red.200');
   const color = useColorModeValue('primary.300', 'white');
+  const bg = useColorModeValue('#F2F2F2', '#181c28');
   const [displayMobileMenu, changeDisplayMobileMenu] = useState('none');
   const {t} = useTranslation()
 
@@ -68,9 +68,11 @@ const Navbar = () => {
         display={"flex"}
         justifyContent={"space-between"}
         width={"100%"}
+        position={{base: "relative", lg: "absolute"}}
         padding={{ base: "5", lg: "10" }}
         alignItems={"center"}
         overflow={"hidden"}
+        backgroundColor={bg}
       >
         <Box>
           <Text

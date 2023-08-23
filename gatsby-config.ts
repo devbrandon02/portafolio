@@ -39,7 +39,7 @@ const config: GatsbyConfig = {
       resolve: `gatsby-plugin-react-i18next`,
       options: {
         localeJsonSourceName: `locale`,
-        languages: [`es`, `en`],
+        languages: [`en`, `es`],
         defaultLanguage: `en`,
         siteUrl: `https://example.com`,
         trailingSlash: 'always',

@@ -5,6 +5,7 @@ import { ColorModeScript, theme, ChakraProvider } from "@chakra-ui/react"
 import themeCustom from "../@chakra-ui/gatsby-plugin/theme"
 import Hero from "../components/Hero"
 import { graphql } from "gatsby"
+import AboutMe from "../components/AboutMe"
 
 
 const HomePages = () => {
@@ -15,6 +16,7 @@ const HomePages = () => {
         <main>
           <Navbar />
           <Hero />
+          <AboutMe />
         </main>
       </ChakraProvider>
     </>
