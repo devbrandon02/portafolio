@@ -12,13 +12,13 @@ const Hero = () => {
   return (
     <>
       <Flex backgroundColor={bg}
-        overflow={"auto"} width={"100%"} height={"100vh"} flexDirection={{ base: "column", lg: "row" }}>
-        <Flex mt={{ base: 20, lg: 0 }} justifyContent={"center"} alignItems={"center"} width={"100%"}>
+        overflow={"auto"} width={"100%"} height={"100vh"} justifyContent={"center"} flexDirection={{ base: "column", lg: "row" }}>
+        <Flex mt={{ base: 20, lg: 0 }} justifyContent={"center"} alignItems={"center"} width={"80%"}>
           <Flex
             width={{ base: "100%", lg: "100%" }}
             textAlign={"left"}
             justifyContent={"center"}
-            padding={{ base: 10, lg: 20 }}
+            padding={{ base: 10, lg: '20' }}
             gap={2}
             height={"100%"}
             flexDirection={"column"}
@@ -41,10 +41,10 @@ const Hero = () => {
             </Box>
             <Box>
               <Text textAlign={{ base: "left", lg: "justify" }}>
-                {t("I'm a skilled software geek specializing in mobile and web tech. I've also got a savvy side in digital marketing to add some extra flair. Based in Colombia, I'm all in for global opportunities to sprinkle my coding expertise worldwide.")}
+                {t("Geek passionate about mobile and web technology, and expert software developer. I merge my love for coding and digital marketing to create innovative solutions from Colombia and take them to the world.")}
               </Text>
 
-              <Box mt={20}>
+              <Box mt={10}>
                 <Button rightIcon={<DownloadIcon />} colorScheme='teal'>
                   <VStack>
                     <Text fontSize={"14px"} textTransform={"uppercase"}>{t("Download CV")}</Text>
@@ -53,12 +53,11 @@ const Hero = () => {
               </Box>
             </Box>
           </Flex>
-        </Flex>
         <Box
           display={{ base: "none", lg: "flex" }}
           justifyContent={"center"}
           alignItems={"center"}
-          width={"90%"}
+          width={"100%"}
           padding={10}
           height={"100%"}
         >
@@ -71,6 +70,7 @@ const Hero = () => {
             alt={'hero-devices'}
           />
         </Box>
+        </Flex>
       </Flex>
     </>
   )
